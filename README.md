@@ -48,7 +48,7 @@ Allows users to share their cars, and put them up for rental, similar to Airbnb 
 * Search
     * user can search for a post 
     * user can search for another user
-*
+
 
 ### 3. Navigation
 
