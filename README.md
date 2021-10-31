@@ -64,6 +64,7 @@ Optional:
 
 **Flow Navigation** (Screen to Screen)
 * Launch screen
+    * Log In/Registration
 * Login screen
     * Feed
 * Registration 
@@ -79,3 +80,5 @@ Optional:
     * feed
 
 ## Wireframes
+
+<img src="https://i.imgur.com/bdhL38f.jpg" width=600>
