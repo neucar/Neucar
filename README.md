@@ -83,3 +83,6 @@ Optional:
 
 <img src="https://i.imgur.com/bdhL38f.jpg" width=600>
 <img src="https://i.imgur.com/OEJEkn1.jpg" width=600>
+
+### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.imgur.com/juhQRuf.png" width=600>
