@@ -83,6 +83,9 @@ Schema
 Models
 
 Homepage 
+
+
+
 <img width="706" alt="Screen Shot 2021-11-07 at 11 08 4 AM" src="https://user-images.githubusercontent.com/79591114/140652885-2bc0d83f-2704-4520-b054-e64094da9269.png">
 
 
@@ -90,16 +93,16 @@ Homepage
 
 
 
-
-Networking 
 * Homepage screen           
-   * Create Post Screen
-   *(Create/POST) Create a new post object
-   *(Delete) delete the pos
- * (Create/POST) create a new rating/review object
-   *(Delete) delete the rating/review object 
- * (Create/POST) create a new comment object
-   *(Delete) delete the comment
+    => Create Post Screen
+   =>(Create/POST) Create a new post object
+   =>(Delete) delete the post
+     => (Create/POST) create a new rating/review object
+   =>(Delete) delete the rating/review object 
+     =>(Create/POST) create a new comment object
+   =>(Delete) delete the comment
+
+
 
 ## Wireframes
 
