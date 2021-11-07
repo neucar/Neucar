@@ -82,7 +82,9 @@ Optional:
 Schema
 Models
 
+Homepage 
 
+<img width="706" alt="Screen Shot 2021-11-07 at 11 08 4 AM" src="https://user-images.githubusercontent.com/79591114/140652885-2bc0d83f-2704-4520-b054-e64094da9269.png">
 
 
 
