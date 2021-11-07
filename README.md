@@ -92,9 +92,9 @@ Homepage
 
 
 Networking 
-* Homepage screen
-      * Create Post Screen
-       *(Create/POST) Create a new post object
+* Homepage screen           
+* Create Post Screen
+*(Create/POST) Create a new post object
     
 
 ## Wireframes
