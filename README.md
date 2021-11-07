@@ -98,7 +98,7 @@ Homepage
 =>(Create/POST) Create a new post object
 =>(Delete) delete the post
 => (Create/POST) create a new rating/review object
-=>(Delete) delete the rating/review object 
+=>(Delete) delete the rating/review object
 =>(Create/POST) create a new comment object
 =>(Delete) delete the comment
 
