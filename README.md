@@ -79,6 +79,14 @@ Optional:
     * search result
     * feed
 
+Schema
+Models
+
+
+
+
+
+
 ## Wireframes
 
 <img src="https://i.imgur.com/bdhL38f.jpg" width=600>
