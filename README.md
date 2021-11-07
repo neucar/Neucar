@@ -85,8 +85,8 @@ Models
 Homepage 
 
 
+<img width="667" alt="Screen Shot 2021-11-07 at 12 08 55 PM" src="https://user-images.githubusercontent.com/79591114/140655028-fc8df1ca-1574-4af3-ad3d-37f49b02a31d.png">
 
-<img width="706" alt="Screen Shot 2021-11-07 at 11 08 4 AM" src="https://user-images.githubusercontent.com/79591114/140652885-2bc0d83f-2704-4520-b054-e64094da9269.png">
 
 
 * Homepage screen          
