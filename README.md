@@ -82,13 +82,25 @@ Optional:
 Schema
 Models
 
+Camera
+
+
+<img width="655" alt="Screen Shot 2021-11-07 at 6 08 33 PM" src="https://user-images.githubusercontent.com/79591114/140666542-6b2db439-033d-4c5e-9720-84d49edda39c.png">
+
+
+
+
+
+
+
 Homepage 
 
 <img width="691" alt="Screen Shot 2021-11-07 at 12 08 42 PM" src="https://user-images.githubusercontent.com/79591114/140655035-a07e6448-8eb0-430a-85df-e0fc98598e36.png">
 
 
 
-
+Networking
+List of network requests by screen
 
 * Homepage screen          
  
@@ -102,7 +114,7 @@ Homepage
  
   -(Create/POST) create a new comment object
   
-  -(Delete) delete the comment*
+  -(Delete) delete the comment
 
 
 
