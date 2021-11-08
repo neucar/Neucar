@@ -111,33 +111,32 @@ Settings
 Networking
 List of network requests by screen
 
-* Camera Screen
+* Camera screen 
+   
+   - (Create/POST) user can create or take a new picture
 
-- (Create/POST) user can create or take a new picture
+   - (Delete) user can delete the new picture 
 
-- (Delete) user can delete the new picture 
+   - (Read) User can select an exisitng picture from the photo libary 
 
-- (Read) User can select an exisitng picture from the photo libary 
-
-- (Delete) user can unselect an exisitng picture from the photo libary 
-
+   - (Delete) user can unselect an exisitng picture from the photo libary 
 
 
 
 
 * Homepage screen          
  
- -(Create/POST) Create a new post object
+   -(Create/POST) Create a new post object
  
- -(Delete) delete the post
+    -(Delete) delete the post
  
- -(Create/POST) create a new rating/review object
+   -(Create/POST) create a new rating/review object
  
- -(Delete) delete the rating/review object 
+   -(Delete) delete the rating/review object 
   
-  -(Create/POST) create a new comment object
+    -(Create/POST) create a new comment object
   
-  -(Delete) delete the comment
+    -(Delete) delete the comment
 
 
 
