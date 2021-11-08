@@ -83,6 +83,10 @@ Schema
 Models
 
 
+Sign up
+
+![](https://i.imgur.com/vKsY1Jm.png)
+
 
 
 
@@ -110,6 +114,18 @@ Settings
 
 Networking
 List of network requests by screen
+
+
+
+
+
+
+
+
+
+
+
+
 
 * Camera screen 
    
@@ -140,8 +156,7 @@ List of network requests by screen
 
     -(Delete) delete the comment
   
-  
-
+ 
 
 
 ## Wireframes
