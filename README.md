@@ -91,7 +91,7 @@ Models
 
 
 Camera
-
+ 
 
 <img width="655" alt="Screen Shot 2021-11-07 at 6 08 33 PM" src="https://user-images.githubusercontent.com/79591114/140666542-6b2db439-033d-4c5e-9720-84d49edda39c.png">
 
@@ -111,7 +111,7 @@ Settings
 Networking
 List of network requests by screen
 
-* Camera
+* Camera Screen
 
 - (Create/POST) user can create or take a new picture
 
@@ -120,6 +120,10 @@ List of network requests by screen
 - (Read) User can select an exisitng picture from the photo libary 
 
 - (Delete) user can unselect an exisitng picture from the photo libary 
+
+
+
+
 
 * Homepage screen          
  
