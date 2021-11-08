@@ -85,27 +85,45 @@ Models
 
 Sign up
 
-![](https://i.imgur.com/vKsY1Jm.png)
+| Property |   Type  |     Description     |
+| -------- | ------- | ------------------- |
+|Email     |String and number|User can insert their username to sign up|
+|Username     |String and number|User can insert their username to sign up|
+|Password     |String and number|User can insert their password to sign up|
+|Password     |String and number|User can reinsert their password|
 
-Sign in
 
-![](https://i.imgur.com/AOtzCqH.png)
+**Sign in**
 
+| Property |   Type  |     Description     |
+| -------- | ------- | ------------------- |
+|Username     |String and number|User can insert their username to sign in|
+|Password     |String and number|User can insert their password to sign in|
 
 
 
 Camera
  
 
-<img width="655" alt="Screen Shot 2021-11-07 at 6 08 33 PM" src="https://user-images.githubusercontent.com/79591114/140666542-6b2db439-033d-4c5e-9720-84d49edda39c.png">
+| Property |   Type  |     Description     |
+| -------- | ------- | ------------------- |
+|Image     |File      |Image that user can take|
+|Image     |File    |Image that user can select from their photo library|
+
 
 Homepage 
 
-<img width="691" alt="Screen Shot 2021-11-07 at 12 08 42 PM" src="https://user-images.githubusercontent.com/79591114/140655035-a07e6448-8eb0-430a-85df-e0fc98598e36.png">
+| Property |   Type  |     Description     |
+| -------- | ------- | ------------------- |
+|Image    |File  | Image that author posts |
+|Description      |String      |Image desctiption by the author|
+|Profile | Pointer to user    |image author|
+|Rating/Review|Number/String     | Number of ratings that a post has and author or user can post a review |
+|Comments| String     |User or the author can post a comment|
 
 
 
-Settings 
+
 
 
 
