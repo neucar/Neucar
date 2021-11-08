@@ -79,11 +79,35 @@ Optional:
     * search result
     * feed
 
-Schema
-Models
+## Wireframes
 
+<img src="https://i.imgur.com/bdhL38f.jpg" width=600>
+<img src="https://i.imgur.com/OEJEkn1.jpg" width=600>
 
-Sign up
+### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.imgur.com/juhQRuf.png" width=600>
+
+## Schema Models
+
+**Profile Page**
+
+| Property |   Type  |     Description     |
+| -------- | ------- | ------------------- |
+|Author    |Pointer to User  | image of author |
+|Name      |String      |name of user|
+|Profile Photo| File    |image that users sets|
+|Likes count|Number     |Number of likes a user has|
+|Post count| Number     |Number of posts a user has|
+
+**Settings Page**
+
+| Property |   Type  |     Description     |
+| -------- | ------- | ------------------- |
+|Name      |String      |name of user|
+|Email| String and number    |Email the user provides|
+|Password|String and number|User can change password|
+
+**Sign up**
 
 | Property |   Type  |     Description     |
 | -------- | ------- | ------------------- |
@@ -102,7 +126,7 @@ Sign up
 
 
 
-Camera
+**Camera**
  
 
 | Property |   Type  |     Description     |
@@ -111,7 +135,7 @@ Camera
 |Image     |File    |Image that user can select from their photo library|
 
 
-Homepage 
+**Homepage**
 
 | Property |   Type  |     Description     |
 | -------- | ------- | ------------------- |
@@ -130,7 +154,7 @@ Homepage
 
 
 
-Networking
+### Networking
 List of network requests by screen
 
 
@@ -158,29 +182,39 @@ List of network requests by screen
 
 
 
-* Homepage screen          
-  
-   -(Read/GET) Get all posts
+* Homepage screen 
+   * (Read/GET) Get all posts
     
-    -(Create/POST) Create a new post object
+   * (Create/POST) Create a new post object
 
-    -(Delete) delete the post
+   * (Delete) delete the post
 
-   -(Create/POST) create a new rating/review object
+   * (Create/POST) create a new rating/review object
 
-    -(Delete) delete the rating/review object 
+   * (Delete) delete the rating/review object 
 
-    -(Create/POST) create a new comment object
+   * (Create/POST) create a new comment object
 
-    -(Delete) delete the comment
+   * (Delete) delete the comment
   
+ * Profile screen
  
+   * (Read/GET) Query logged in user object
+    
+   * (Update/PUT) Update user profile image
+    
+   * (Update/PUT) Update user profile name
+    
+   * (Read/GET) Query number of likes from author
+    
+   * (Read/GET) Query number of posts from author
+    
 
-
-## Wireframes
-
-<img src="https://i.imgur.com/bdhL38f.jpg" width=600>
-<img src="https://i.imgur.com/OEJEkn1.jpg" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/juhQRuf.png" width=600>
+* Settings screen 
+   * (Update/PUT) Update user logged in status
+    
+   * **Account**
+    
+      * (Read/GET) Query logged in user
+        
+      * (Delete) Delete user account
