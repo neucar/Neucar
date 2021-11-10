@@ -146,26 +146,21 @@ Optional:
 |Comments| String     |User or the author can post a comment|
 
 
-
-
-
-
-
-
-
-
 ### Networking
 List of network requests by screen
 
+* Sign-Up
+   * (Create/POST) User can register a new account
+   
+   * (POST) User can add an email
+  
+   * (POST) User can create a password
 
 
 
+* Sign-in
 
-
-
-
-
-
+   * (GET) User can login
 
 
 
