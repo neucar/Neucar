@@ -4,7 +4,6 @@
 Allows users to share their cars, and put them up for rental, similar to Airbnb but for cars. Users can rent these cars for a short period a time to use them for travel and such.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Car Rentals
 - **Mobile:** This will only be a mobile application. Users will have to create and account and log in before putting their car post up for rental or messaging for more information regarding a rental, by using comments in a post. 
 - **Story:** Allows users who do not own vehicles to have the ability to rent one for a trip or daily commute to their workplace.
@@ -23,6 +22,8 @@ Allows users to share their cars, and put them up for rental, similar to Airbnb 
 * User can make/submit a post
 * User can reserve a car
 * drop a like or maybe a star rating for the post of a car or add to favorites
+ * user can add a comment or  review
+ * can have a settings page 
 
 **Optional Nice-to-have Stories**
 
