@@ -1,0 +1,6 @@
+framework module Pods_Neucar {
+  umbrella header "Pods-Neucar-umbrella.h"
+
+  export *
+  module * { export * }
+}

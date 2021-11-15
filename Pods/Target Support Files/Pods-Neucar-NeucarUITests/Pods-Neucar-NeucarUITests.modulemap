@@ -1,0 +1,6 @@
+framework module Pods_Neucar_NeucarUITests {
+  umbrella header "Pods-Neucar-NeucarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
