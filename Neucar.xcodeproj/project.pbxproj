@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234B9A19274426C500B6596A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B9A18274426C500B6596A /* HomeTableViewController.swift */; };
+		234B9A1B274426F800B6596A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B9A1A274426F800B6596A /* ProfileViewController.swift */; };
 		23A1EB6F2741635400215054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1EB6E2741635400215054 /* AppDelegate.swift */; };
 		23A1EB712741635400215054 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1EB702741635400215054 /* SceneDelegate.swift */; };
 		23A1EB732741635400215054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1EB722741635400215054 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		1462000A921F7713D3064DE2 /* Pods-Neucar-NeucarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neucar-NeucarUITests.debug.xcconfig"; path = "Target Support Files/Pods-Neucar-NeucarUITests/Pods-Neucar-NeucarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		234B9A18274426C500B6596A /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		234B9A1A274426F800B6596A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		23A1EB6B2741635400215054 /* Neucar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neucar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1EB6E2741635400215054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1EB702741635400215054 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				23A1EB772741635C00215054 /* Assets.xcassets */,
 				23A1EB792741635C00215054 /* LaunchScreen.storyboard */,
 				23A1EB7C2741635C00215054 /* Info.plist */,
+				234B9A18274426C500B6596A /* HomeTableViewController.swift */,
+				234B9A1A274426F800B6596A /* ProfileViewController.swift */,
 			);
 			path = Neucar;
 			sourceTree = "<group>";
@@ -155,7 +161,6 @@
 				B48777CC08B5B6D9FD581F0C /* Pods-NeucarTests.debug.xcconfig */,
 				44A7C75A0D8CABA618DCDAED /* Pods-NeucarTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,7 +412,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234B9A19274426C500B6596A /* HomeTableViewController.swift in Sources */,
 				23A1EB732741635400215054 /* ViewController.swift in Sources */,
+				234B9A1B274426F800B6596A /* ProfileViewController.swift in Sources */,
 				23A1EB6F2741635400215054 /* AppDelegate.swift in Sources */,
 				23A1EB712741635400215054 /* SceneDelegate.swift in Sources */,
 			);
