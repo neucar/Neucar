@@ -218,6 +218,9 @@ List of network requests by screen
 
 
 ## Sprint 1 Milestones
+[x] user sees the App Icon 
+
+[x] user sees the launch screen
 
 
 
