@@ -219,7 +219,7 @@ List of network requests by screen
 
 ## Sprint 1 Milestones
 - [x] User sees app icon in home screen and styled launch screen.
-      ![](https://i.imgur.com/4mUI8mR.gif)
+ ![](https://i.imgur.com/4mUI8mR.gif)
 
 - [x] User can sign up to create a new account. 
 
@@ -229,7 +229,7 @@ List of network requests by screen
 
 ![](https://i.imgur.com/VxBw34k.gif)
 
-Camera View:
+
 
 - [x] User can select pictures from camera for posts
 
