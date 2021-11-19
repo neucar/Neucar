@@ -232,6 +232,7 @@ List of network requests by screen
    
 
 - [x] User can log in. 
+
 ![5EYyzvBhsr](https://user-images.githubusercontent.com/79591114/142680954-fe939bd3-f311-4806-b67e-db31bddac42c.gif)
 
 
