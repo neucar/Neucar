@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 import AlamofireImage
 
 class CameraViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate {

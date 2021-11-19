@@ -124,11 +124,11 @@
 				23A1EB6E2741635400215054 /* AppDelegate.swift */,
 				23A1EB702741635400215054 /* SceneDelegate.swift */,
 				23A1EB722741635400215054 /* ViewController.swift */,
+				52A705242747A78100948FC3 /* CameraViewController.swift */,
 				23A1EB742741635400215054 /* Main.storyboard */,
 				23A1EB772741635C00215054 /* Assets.xcassets */,
 				23A1EB792741635C00215054 /* LaunchScreen.storyboard */,
 				23A1EB7C2741635C00215054 /* Info.plist */,
-				52A705242747A78100948FC3 /* CameraViewController.swift */,
 			);
 			path = Neucar;
 			sourceTree = "<group>";
