@@ -215,3 +215,12 @@ List of network requests by screen
       * (Read/GET) Query logged in user
         
       * (Delete) Delete user account
+
+
+## Sprint 1 Milestones
+
+
+
+
+
+
