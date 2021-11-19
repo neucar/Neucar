@@ -225,7 +225,11 @@ List of network requests by screen
 
 - [x] User can sign up to create a new account. 
 
-   https://recordit.co/kgtvQghfaU
+ https://user-images.githubusercontent.com/79591114/142680222-1f08312a-b62b-4708-b431-c4b72b2f215a.mp4
+
+
+   
+   
 
 - [x] User can log in. 
 
