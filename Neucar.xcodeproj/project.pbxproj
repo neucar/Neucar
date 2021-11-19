@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234B9A21274820D300B6596A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B9A20274820D300B6596A /* ProfileViewController.swift */; };
 		23A1EB6F2741635400215054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1EB6E2741635400215054 /* AppDelegate.swift */; };
 		23A1EB712741635400215054 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1EB702741635400215054 /* SceneDelegate.swift */; };
 		23A1EB762741635400215054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A1EB742741635400215054 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		1462000A921F7713D3064DE2 /* Pods-Neucar-NeucarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neucar-NeucarUITests.debug.xcconfig"; path = "Target Support Files/Pods-Neucar-NeucarUITests/Pods-Neucar-NeucarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		234B9A20274820D300B6596A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		23A1EB6B2741635400215054 /* Neucar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neucar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1EB6E2741635400215054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1EB702741635400215054 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				23A1EB772741635C00215054 /* Assets.xcassets */,
 				23A1EB792741635C00215054 /* LaunchScreen.storyboard */,
 				23A1EB7C2741635C00215054 /* Info.plist */,
+				234B9A20274820D300B6596A /* ProfileViewController.swift */,
 			);
 			path = Neucar;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			files = (
 				B5320862274568B60094731D /* LoginViewController.swift in Sources */,
 				52A705252747A78100948FC3 /* CameraViewController.swift in Sources */,
+				234B9A21274820D300B6596A /* ProfileViewController.swift in Sources */,
 				23A1EB6F2741635400215054 /* AppDelegate.swift in Sources */,
 				23A1EB712741635400215054 /* SceneDelegate.swift in Sources */,
 			);
