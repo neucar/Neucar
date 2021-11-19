@@ -218,9 +218,14 @@ List of network requests by screen
 
 
 ## Sprint 1 Milestones
-[x] user sees the App Icon 
+- [x] User sees app icon in home screen and styled launch screen.
 
-[x] user sees the launch screen
+- [x] User can sign up to create a new account. 
+
+- [x] User can log in. 
+
+
+
 
 
 
