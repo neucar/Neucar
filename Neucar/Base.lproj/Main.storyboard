@@ -228,7 +228,6 @@
                     <connections>
                         <outlet property="passwordField" destination="UyU-UM-5tJ" id="m8l-sO-wlX"/>
                         <outlet property="usernameField" destination="3Fb-3o-W3M" id="Dec-Oq-fiV"/>
-                        <segue destination="n4N-kB-Ne4" kind="presentation" identifier="loginSegue" id="gH4-Eh-Gf4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vDP-hI-XgX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -292,9 +291,6 @@
             <point key="canvasLocation" x="2049" y="345"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="wcr-lC-7oU"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
