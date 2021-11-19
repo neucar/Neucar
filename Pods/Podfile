@@ -1,0 +1,56 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Bolts' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Bolts
+
+end
+ target 'MyApp' do
+ 	...
+ 	# Add Parse pods and install
+ 	pod 'Parse'
+ 	pod 'AlamofireImage'
+ end
+
+target 'Parse' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Parse
+
+end
+
+target 'Parse-Parse' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Parse-Parse
+
+end
+
+target 'Pods-Neucar' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Pods-Neucar
+
+end
+
+target 'Pods-Neucar-NeucarUITests' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Pods-Neucar-NeucarUITests
+
+end
+
+target 'Pods-NeucarTests' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Pods-NeucarTests
+
+end
