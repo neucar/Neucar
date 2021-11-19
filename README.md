@@ -225,13 +225,15 @@ List of network requests by screen
 
 - [x] User can sign up to create a new account. 
 
- https://user-images.githubusercontent.com/79591114/142680222-1f08312a-b62b-4708-b431-c4b72b2f215a.mp4
 
 
-   
+   ![kgtvQghfaU](https://user-images.githubusercontent.com/79591114/142680364-b9aa7ee5-4c6f-486a-ae62-a4b777c07045.gif)
+
    
 
 - [x] User can log in. 
+![5EYyzvBhsr](https://user-images.githubusercontent.com/79591114/142680954-fe939bd3-f311-4806-b67e-db31bddac42c.gif)
+
 
 - [x] User can update Profile Picture
 
