@@ -86,7 +86,7 @@ Optional:
 <img src="https://i.imgur.com/OEJEkn1.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/juhQRuf.png" width=600>
+(https://i.imgur.com/Zjz3yFa.png)
 
 ## Schema Models
 
