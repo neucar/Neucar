@@ -225,6 +225,8 @@ List of network requests by screen
 
 - [x] User can sign up to create a new account. 
 
+   https://recordit.co/kgtvQghfaU
+
 - [x] User can log in. 
 
 - [x] User can update Profile Picture
