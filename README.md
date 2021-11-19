@@ -86,7 +86,8 @@ Optional:
 <img src="https://i.imgur.com/OEJEkn1.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-(https://i.imgur.com/Zjz3yFa.png)
+
+<img width="866" alt="Screen Shot 2021-11-19 at 12 08 32 PM" src="https://user-images.githubusercontent.com/79591114/142664249-f1c81536-1e3f-410a-9662-24bbc75e08e9.png">
 
 ## Schema Models
 
