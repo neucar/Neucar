@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -72,7 +73,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1718.840579710145" y="1027.9017857142858"/>
+            <point key="canvasLocation" x="2259" y="1009"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="B5l-nZ-QTA">
+            <objects>
+                <viewController title="Camera" id="d77-FT-tV4" customClass="CameraViewController" customModule="Neucar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BT1-jV-kk3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera.viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="EEx-HT-KvH">
+                                <rect key="frame" x="0.0" y="177" width="414" height="307"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="82s-5S-vWa" appends="YES" id="lAU-5e-QXt"/>
+                                </connections>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TR8-Yz-Ssa">
+                                <rect key="frame" x="1" y="493" width="413" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgj-oz-cCS">
+                                <rect key="frame" x="1" y="553" width="393" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="onSubmitButton:" destination="d77-FT-tV4" eventType="touchUpInside" id="MaH-0y-zd5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NSD-yO-Riv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="commentField" destination="TR8-Yz-Ssa" id="g9x-uc-nYQ"/>
+                        <outlet property="imageView" destination="EEx-HT-KvH" id="bB9-PC-6qH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ffj-b3-DFI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="82s-5S-vWa">
+                    <connections>
+                        <action selector="onCameraButton:" destination="d77-FT-tV4" id="8dg-8G-S6j"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1402.8985507246377" y="1015.8482142857142"/>
         </scene>
         <!--Home-->
         <scene sceneID="3lH-wD-uyY">
@@ -101,7 +150,14 @@
                         <viewLayoutGuide key="safeArea" id="LWa-8k-C0O"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="YUo-KJ-TCZ"/>
+                    <navigationItem key="navigationItem" title="Home" id="YUo-KJ-TCZ">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Zew-XE-7sN">
+                            <imageReference key="image" image="camera.fill" catalog="system" symbolScale="large"/>
+                            <connections>
+                                <segue destination="d77-FT-tV4" kind="presentation" id="Tqv-ph-uKN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Uq-7I-Qjw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,30 +204,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfT-Qc-6lD">
-                                <rect key="frame" x="251" y="666" width="118" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-<<<<<<< HEAD
-=======
-                                <buttonConfiguration key="configuration" style="plain" title="Login">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="onLogIn:" destination="Nxs-pN-mlf" eventType="touchUpInside" id="4oC-ny-Oqy"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGn-ZC-04w">
-                                <rect key="frame" x="58" y="676" width="135" height="31"/>
+                                <rect key="frame" x="20" y="581" width="135" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="SignUp">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                </buttonConfiguration>
+                                <state key="normal" title="Sign In"/>
                                 <connections>
                                     <action selector="onSignup:" destination="Nxs-pN-mlf" eventType="touchUpInside" id="aag-2O-yi1"/>
                                 </connections>
->>>>>>> 5e3aaa3f128d4c54575dbf502e45a53624f9df95
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfT-Qc-6lD">
+                                <rect key="frame" x="251" y="571" width="118" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="onLogIn:" destination="Nxs-pN-mlf" eventType="touchUpInside" id="4oC-ny-Oqy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XL6-9i-PYE"/>
@@ -203,7 +250,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gcF-uU-VJJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1068" y="-503"/>
+            <point key="canvasLocation" x="1754" y="-478"/>
         </scene>
         <!--Home-->
         <scene sceneID="Hp9-Ng-zLL">
@@ -247,7 +294,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="2f0-z9-71C"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="camera.fill" catalog="system" width="128" height="94"/>
+        <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

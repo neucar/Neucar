@@ -8,15 +8,16 @@
 import UIKit
 import Parse
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var editLabel: UILabel!
+class ViewController: UIViewController{
+    @IBAction func cameraButton(_ sender: Any) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
     }
-
 
 }
 
