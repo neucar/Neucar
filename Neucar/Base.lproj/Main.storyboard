@@ -170,7 +170,7 @@
         <!--Login View Controller-->
         <scene sceneID="JP7-ye-Z2D">
             <objects>
-                <viewController id="Nxs-pN-mlf" customClass="LoginViewController" customModule="Neucar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="Nxs-pN-mlf" customClass="LoginViewController" customModule="Neucar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1oG-pN-bb5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -304,13 +304,29 @@
             </objects>
             <point key="canvasLocation" x="1735" y="518"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="kax-wE-OQu">
             <objects>
-                <viewController id="jIY-wB-7Dr" sceneMemberID="viewController">
+                <viewController id="jIY-wB-7Dr" customClass="SettingsViewController" customModule="Neucar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iWF-4f-t6w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P40-CE-ch2">
+                                <rect key="frame" x="58" y="625" width="131" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.83137254900000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Sign In"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="onLogoutButton:" destination="jIY-wB-7Dr" eventType="touchUpInside" id="33K-3d-LcS"/>
+                                    <action selector="onSignIn:" destination="Nxs-pN-mlf" eventType="touchUpInside" id="fVa-Yg-Ber"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="VjZ-y2-gxk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
