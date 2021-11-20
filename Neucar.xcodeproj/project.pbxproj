@@ -122,16 +122,16 @@
 		23A1EB6D2741635400215054 /* Neucar */ = {
 			isa = PBXGroup;
 			children = (
+				52A705242747A78100948FC3 /* CameraViewController.swift */,
 				B5320861274568B60094731D /* LoginViewController.swift */,
+				234B9A20274820D300B6596A /* ProfileViewController.swift */,
 				B5F5B577274960550092800D /* SettingsViewController.swift */,
 				23A1EB6E2741635400215054 /* AppDelegate.swift */,
 				23A1EB702741635400215054 /* SceneDelegate.swift */,
-				52A705242747A78100948FC3 /* CameraViewController.swift */,
 				23A1EB742741635400215054 /* Main.storyboard */,
 				23A1EB772741635C00215054 /* Assets.xcassets */,
 				23A1EB792741635C00215054 /* LaunchScreen.storyboard */,
 				23A1EB7C2741635C00215054 /* Info.plist */,
-				234B9A20274820D300B6596A /* ProfileViewController.swift */,
 			);
 			path = Neucar;
 			sourceTree = "<group>";
