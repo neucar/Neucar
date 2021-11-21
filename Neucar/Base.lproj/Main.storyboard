@@ -270,7 +270,7 @@
         <scene sceneID="Hp9-Ng-zLL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lxb-XG-bye" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="Pxw-UK-5u4"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="feed_tab" id="Pxw-UK-5u4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ske-US-fy0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -367,6 +367,7 @@
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
+        <image name="feed_tab" width="25" height="25"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="profile_tab" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
