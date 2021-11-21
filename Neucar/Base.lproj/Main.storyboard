@@ -250,6 +250,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="VSk-fi-Jqv">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcF-uU-VJJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="jzm-9N-VRh" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yhp-gL-ncl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -262,7 +263,6 @@
                         <segue destination="j4j-ag-kTr" kind="relationship" relationship="viewControllers" id="eKn-YJ-Vzb"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gcF-uU-VJJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1038" y="-481"/>
         </scene>
@@ -289,7 +289,7 @@
         <scene sceneID="nNf-mL-4WT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n4N-kB-Ne4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="vJY-NL-jgf"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile_tab" id="vJY-NL-jgf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KQR-MR-xbh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -346,6 +346,7 @@
         <!--Settings-->
         <scene sceneID="CXg-Oo-QFh">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hae-Ah-5bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j4j-ag-kTr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" id="zWp-fe-OLt"/>
                     <toolbarItems/>
@@ -358,7 +359,6 @@
                         <segue destination="jIY-wB-7Dr" kind="relationship" relationship="rootViewController" id="ngC-Tr-egz"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hae-Ah-5bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3944.9275362318845" y="38.839285714285715"/>
         </scene>
@@ -368,6 +368,7 @@
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
         <image name="person" catalog="system" width="128" height="117"/>
+        <image name="profile_tab" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
