@@ -426,11 +426,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P40-CE-ch2">
-                                <rect key="frame" x="58" y="625" width="131" height="42"/>
+                                <rect key="frame" x="58" y="624" width="131" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.83137254900000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Sign In"/>
+                                <state key="normal" title="Sign out"/>
                                 <connections>
                                     <action selector="onLogoutButton:" destination="jIY-wB-7Dr" eventType="touchUpInside" id="33K-3d-LcS"/>
                                     <action selector="onSignIn:" destination="Nxs-pN-mlf" eventType="touchUpInside" id="fVa-Yg-Ber"/>
