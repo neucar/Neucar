@@ -23,9 +23,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if PFUser.current() != nil {
             let main = UIStoryboard(name: "Main", bundle: nil)
             
-            let TabNavigationController = main.instantiateViewController(identifier: "TabNavigationController")
+            let HomeNavigationController = main.instantiateViewController(identifier: "TabNavigationController")
             
-            window?.rootViewController = TabNavigationController
+            window?.rootViewController = HomeNavigationController
         }
     }
 

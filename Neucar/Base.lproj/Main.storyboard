@@ -382,7 +382,7 @@
         <!--Home-->
         <scene sceneID="Hp9-Ng-zLL">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lxb-XG-bye" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="HomeNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Lxb-XG-bye" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="home-icon" id="Pxw-UK-5u4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ske-US-fy0">
