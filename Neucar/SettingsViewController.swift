@@ -49,7 +49,18 @@ class SettingsViewController: UIViewController {
     @IBAction func onClickAccount(_ sender: Any) {
     }
     
-    @IBAction func onClickDarkMode(_ sender: Any) {
+    @IBAction func onClickDarkMode(_ sender: UISwitch) {
+        
+        if #available(ios 13.0, *){
+            let appDelegate  = UIApplication.shared.windows.first
+            if sender.isOn {
+                appDelegate?.overrideUserInterfaceStyle = .dark
+                return
+            }
+            appDelegate?.overrideUserInterfaceStyle = .light
+        }else{
+            
+        }
     }
     
     @IBAction func onClickNotifications(_ sender: Any) {

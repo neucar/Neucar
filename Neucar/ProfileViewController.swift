@@ -13,7 +13,9 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
 
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var usernameLabel: UILabel!
-    @IBAction func OnProfileButton(_ sender: Any) {
+    
+   
+    @IBAction func onClickProfileImage(_ sender: Any) {
         let picker = UIImagePickerController()
         picker.allowsEditing = true
         picker.delegate = self
