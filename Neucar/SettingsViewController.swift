@@ -9,13 +9,14 @@ import UIKit
 import Parse
 
 class SettingsViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
-    
 
     @IBAction func onLogoutButton(_ sender: Any) {
         PFUser.logOut()
