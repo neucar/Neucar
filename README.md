@@ -258,7 +258,7 @@ List of network requests by screen
 
 ![](https://i.imgur.com/iIbe6EC.gif)
 
-- [x] User can see the settings page  and they can turn on Darkmode and view the About Us page 
+- [x] User can see the settings page  and they can turn on and turn off Darkmode and view the About Us page 
 
 ![](https://i.imgur.com/47ofj2S.gif)
 
