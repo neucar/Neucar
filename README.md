@@ -254,6 +254,14 @@ List of network requests by screen
 
 ## Sprint 2 Milestones
 
+- [x] User can logout and sigin again
+
+![](https://i.imgur.com/iIbe6EC.gif)
+
+- [x] User can see the settings and they can turn on Darkmode and view the About Us page
+
+
+
 
 
 
