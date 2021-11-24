@@ -657,6 +657,7 @@
         <!--Settings-->
         <scene sceneID="CXg-Oo-QFh">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hae-Ah-5bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j4j-ag-kTr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" image="40" id="zWp-fe-OLt"/>
                     <toolbarItems/>
@@ -669,7 +670,6 @@
                         <segue destination="jIY-wB-7Dr" kind="relationship" relationship="rootViewController" id="ngC-Tr-egz"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hae-Ah-5bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2828" y="518"/>
         </scene>
