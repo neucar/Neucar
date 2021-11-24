@@ -479,6 +479,9 @@
                                 <rect key="frame" x="330" y="309" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.42163129869999999" green="0.42163129869999999" blue="0.42163129869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="onClickDarkMode:" destination="jIY-wB-7Dr" eventType="valueChanged" id="Nj4-JE-AKa"/>
+                                </connections>
                             </switch>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NyD-fq-Es3">
                                 <rect key="frame" x="77" y="597" width="239" height="34"/>
@@ -515,6 +518,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.42163129869999999" green="0.42163129869999999" blue="0.42163129869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="onClickNotifications:" destination="jIY-wB-7Dr" eventType="valueChanged" id="8xg-On-wRj"/>
+                                </connections>
                             </switch>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EAf-An-Is6">
                                 <rect key="frame" x="77" y="397" width="239" height="34"/>
@@ -535,16 +541,28 @@
                                 <rect key="frame" x="330" y="216" width="39" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="chevron.forward" catalog="system"/>
+                                <connections>
+                                    <action selector="onClickAccount:" destination="jIY-wB-7Dr" eventType="touchUpInside" id="vnr-qJ-m4o"/>
+                                    <segue destination="PEi-Py-vY0" kind="show" id="HIS-qf-orH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl6-lq-LlV">
                                 <rect key="frame" x="334" y="480" width="39" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="chevron.forward" catalog="system"/>
+                                <connections>
+                                    <action selector="onClickAbout:" destination="jIY-wB-7Dr" eventType="touchUpInside" id="Fc1-yn-XHX"/>
+                                    <segue destination="3d7-Z5-bqr" kind="show" id="nQS-d7-RSH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkS-xJ-Mh0">
                                 <rect key="frame" x="330" y="580" width="39" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="chevron.forward" catalog="system"/>
+                                <connections>
+                                    <action selector="onClickHelp:" destination="jIY-wB-7Dr" eventType="touchUpInside" id="kNr-Vb-bhV"/>
+                                    <segue destination="keu-T9-D4w" kind="show" id="Kjn-ht-VYM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VjZ-y2-gxk"/>
@@ -553,10 +571,65 @@
                     <navigationItem key="navigationItem" title="Settings" leftItemsSupplementBackButton="YES" id="8YX-qw-4Jh">
                         <barButtonItem key="backBarButtonItem" title="Back" id="ZRP-6e-xbb"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="AboutButton" destination="Yl6-lq-LlV" id="Da6-UQ-jiE"/>
+                        <outlet property="AccountButton" destination="dYa-Xi-aeK" id="XMf-Yq-Z12"/>
+                        <outlet property="DarkModeSwitch" destination="mGM-vh-Di5" id="agc-CT-SXB"/>
+                        <outlet property="HelpButton" destination="CkS-xJ-Mh0" id="ljl-xp-yZK"/>
+                        <outlet property="NotificationSwitch" destination="pDc-wB-kic" id="yYy-K5-1g6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vNM-dl-e7c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2826.0869565217395" y="1255.5803571428571"/>
+        </scene>
+        <!--Account Settings-->
+        <scene sceneID="B1L-ep-oiS">
+            <objects>
+                <viewController id="PEi-Py-vY0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V1c-Yo-wXx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jUX-r0-0tf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Account Settings" id="fnv-sb-TAJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ij-Fs-ZuG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2423" y="1963"/>
+        </scene>
+        <!--About -->
+        <scene sceneID="NqJ-hD-QOO">
+            <objects>
+                <viewController id="3d7-Z5-bqr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5JS-nk-fSq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Z9E-EX-Dzr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About " id="wy4-4c-1tY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hvt-IY-SIK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3217" y="1972"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="Sbi-ud-6wU">
+            <objects>
+                <viewController id="keu-T9-D4w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KQf-GS-zVo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="C3M-0f-eLT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Help" id="8D5-BC-faZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U2V-jN-m50" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4037" y="1962"/>
         </scene>
         <!--Settings-->
         <scene sceneID="CXg-Oo-QFh">

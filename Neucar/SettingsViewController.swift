@@ -18,6 +18,24 @@ class SettingsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet weak var AccountButton: UIButton!
+    
+    
+    @IBOutlet weak var DarkModeSwitch: UISwitch!
+    
+    
+    @IBOutlet weak var NotificationSwitch: UISwitch!
+    
+    
+    @IBOutlet weak var AboutButton: UIButton!
+    
+    
+    
+    @IBOutlet weak var HelpButton: UIButton!
+    
+    
+    
+    
     @IBAction func onLogoutButton(_ sender: Any) {
         PFUser.logOut()
         let main = UIStoryboard(name: "Main", bundle: nil )
@@ -26,6 +44,29 @@ class SettingsViewController: UIViewController {
         delegate.window?.rootViewController = loginViewController
         
     }
+    
+    
+    @IBAction func onClickAccount(_ sender: Any) {
+    }
+    
+    @IBAction func onClickDarkMode(_ sender: Any) {
+    }
+    
+    @IBAction func onClickNotifications(_ sender: Any) {
+    }
+    
+    
+    @IBAction func onClickAbout(_ sender: Any) {
+    }
+    
+    
+    @IBAction func onClickHelp(_ sender: Any) {
+    }
+    
+    
+    
+    
+    
     
 
 }
