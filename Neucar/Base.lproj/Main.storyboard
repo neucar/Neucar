@@ -659,7 +659,7 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hae-Ah-5bZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j4j-ag-kTr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" image="40" id="zWp-fe-OLt"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="40" selectedImage="40" id="zWp-fe-OLt"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="o1n-Cs-zx0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
