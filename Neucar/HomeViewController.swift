@@ -31,7 +31,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let query = PFQuery(className: "Posts")
         query.includeKey("author")
-        query.limit = 20
+        query.limit = 100
         
         query.findObjectsInBackground{(posts, error) in
             if posts != nil {
