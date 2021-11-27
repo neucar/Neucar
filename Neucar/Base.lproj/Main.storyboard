@@ -254,7 +254,7 @@
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="favor-icon" title=""/>
                                                     <connections>
-                                                        <action selector="favoriteCar:" destination="Tws-o2-bBq" eventType="touchUpInside" id="Z6b-bE-WRn"/>
+                                                        <action selector="setFavorite:" destination="lkv-01-Oyo" eventType="touchUpInside" id="xir-V7-ltG"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -284,6 +284,7 @@
                                             <outlet property="carModelLabel" destination="HwQ-qh-wMV" id="E97-EN-tCM"/>
                                             <outlet property="carYearLabel" destination="xCy-pi-ZA5" id="Xl2-uK-43Y"/>
                                             <outlet property="contanctLabel" destination="y3Q-OE-JcG" id="CVe-xQ-WnF"/>
+                                            <outlet property="favButton" destination="mhO-U4-9Pk" id="BW4-5l-f42"/>
                                             <outlet property="photoView" destination="HTE-hr-OtC" id="xdu-pe-Ww3"/>
                                             <outlet property="rentalLabel" destination="MwS-mj-rUl" id="e4X-f5-897"/>
                                             <outlet property="usernameLabel" destination="7ii-P5-Vgf" id="6E1-Fh-WTr"/>
@@ -304,7 +305,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="favButton" destination="mhO-U4-9Pk" id="eoP-fR-jFc"/>
                         <outlet property="tableView" destination="8hY-2I-AmX" id="r1d-Lc-sKe"/>
                     </connections>
                 </viewController>

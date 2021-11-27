@@ -15,6 +15,7 @@ class PostCell: UITableViewCell {
     
     @IBOutlet weak var carYearLabel: UILabel!
     
+    @IBOutlet weak var favButton: UIButton!
     
     @IBOutlet weak var rentalLabel: UILabel!
     
@@ -27,6 +28,13 @@ class PostCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    
+    
+    @IBAction func setFavorite(_ sender: Any) {
+    }
+    
+    
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
