@@ -51,7 +51,7 @@ class SettingsViewController: UIViewController {
     
     @IBAction func onClickDarkMode(_ sender: UISwitch) {
         
-        if #available(ios 13.0, *){
+        if #available(ios 13.0, *) {
             let appDelegate  = UIApplication.shared.windows.first
             if sender.isOn {
                 appDelegate?.overrideUserInterfaceStyle = .dark
