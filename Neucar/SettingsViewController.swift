@@ -58,7 +58,7 @@ class SettingsViewController: UIViewController {
                 return
             }
             appDelegate?.overrideUserInterfaceStyle = .light
-        }else{
+        } else {
             
         }
     }
