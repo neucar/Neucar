@@ -658,7 +658,7 @@
         <scene sceneID="CXg-Oo-QFh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j4j-ag-kTr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" image="29" selectedImage="29" id="zWp-fe-OLt"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings_icon" selectedImage="settings_icon" id="zWp-fe-OLt"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="o1n-Cs-zx0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -676,7 +676,6 @@
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
-        <image name="29" width="29" height="29"/>
         <image name="AboutUs" width="500" height="500"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
@@ -684,6 +683,7 @@
         <image name="home-icon" width="30" height="30"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="profile_tab" width="25" height="25"/>
+        <image name="settings_icon" width="29" height="29"/>
         <namedColor name="Black">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
