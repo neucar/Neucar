@@ -201,7 +201,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8hY-2I-AmX">
-                                <rect key="frame" x="0.0" y="88" width="414" height="754"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="809"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -248,6 +248,15 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhO-U4-9Pk">
+                                                    <rect key="frame" x="317" y="380" width="69" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="favor-icon" title=""/>
+                                                    <connections>
+                                                        <action selector="favoriteCar:" destination="Tws-o2-bBq" eventType="touchUpInside" id="Z6b-bE-WRn"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="HwQ-qh-wMV" secondAttribute="trailing" constant="8" id="4pv-RB-dlc"/>
@@ -295,6 +304,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="favButton" destination="mhO-U4-9Pk" id="eoP-fR-jFc"/>
                         <outlet property="tableView" destination="8hY-2I-AmX" id="r1d-Lc-sKe"/>
                     </connections>
                 </viewController>
@@ -680,6 +690,7 @@
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
         <image name="chevron.forward" catalog="system" width="96" height="128"/>
+        <image name="favor-icon" width="30" height="30"/>
         <image name="home-icon" width="30" height="30"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="profile_tab" width="25" height="25"/>

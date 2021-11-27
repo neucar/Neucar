@@ -10,7 +10,8 @@ import Parse
 import AlamofireImage
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-
+    @IBOutlet weak var favButton: UIButton!
+    
     @IBOutlet weak var tableView: UITableView!
     
     var posts = [PFObject]()
@@ -24,6 +25,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Do any additional setup after loading the view.
         myRefreshControl.addTarget(self, action: #selector(viewDidAppear), for: .valueChanged)
         tableView.refreshControl = myRefreshControl
+    }
+    
+    @IBAction func favoriteCar(_ sender: Any) {
     }
     
     override func viewDidAppear(_ animated: Bool) {
