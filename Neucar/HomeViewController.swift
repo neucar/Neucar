@@ -73,7 +73,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         cell.posts = self.posts
         
-        //Add code to setFavorite initially
+      
         cell.setFavorite(self.posts[indexPath.row]["favorited"] as! Bool)
         
         
