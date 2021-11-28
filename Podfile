@@ -7,8 +7,11 @@ target 'Neucar' do
 
   # Pods for Neucar
  pod 'Parse'
+ pod 'MessageInputBar'
+
  # Pods for AlamofireImage
 pod 'AlamofireImage'
+
     
  target 'NeucarTests' do
     inherit! :search_paths

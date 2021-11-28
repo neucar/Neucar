@@ -8,6 +8,8 @@
 import UIKit
 import Parse
 import AlamofireImage
+import MessageInputBar
+
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
   
