@@ -254,7 +254,7 @@
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="favor-icon" title=""/>
                                                     <connections>
-                                                        <action selector="setFavorite:" destination="lkv-01-Oyo" eventType="touchUpInside" id="xir-V7-ltG"/>
+                                                        <action selector="favorite:" destination="lkv-01-Oyo" eventType="touchUpInside" id="FYj-VD-SUW"/>
                                                     </connections>
                                                 </button>
                                             </subviews>

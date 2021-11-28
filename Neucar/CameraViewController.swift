@@ -31,6 +31,7 @@ class CameraViewController: UIViewController,UIImagePickerControllerDelegate, UI
         post["rental"] = rentalField.text!
         post["contact"] = contactField.text!
         post["author"] = PFUser.current()!
+        post["favorited"] = false
         
         let imageData = imageView.image!.pngData()
         

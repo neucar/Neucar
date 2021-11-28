@@ -51,6 +51,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
@@ -70,12 +71,18 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         cell.photoView.af.setImage(withURL: url)
         
+        cell.posts = self.posts
+        
+        //Add code to setFavorite initially
+        cell.setFavorite(self.posts[indexPath.row]["favorited"] as! Bool)
+        
         
         return cell
         
         
     }
     
+
 
     /*
     // MARK: - Navigation
