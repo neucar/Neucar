@@ -38,7 +38,7 @@ class PostCell: UITableViewCell {
     
     func getIndexPath() -> IndexPath? {
         guard let superView = self.superview as? UITableView else {
-            print("supervoew is not a UITableView - getIndexPath")
+            print("superview is not a UITableView - getIndexPath")
             return nil
         }
         
