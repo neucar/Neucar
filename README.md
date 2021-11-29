@@ -278,6 +278,9 @@ List of network requests by screen
 ## Sprint 3 Milestones
 
 - [x] User can like or unlike a car post
+ 
+![](https://i.imgur.com/GN8zkJE.gif)
+
 
 
 
