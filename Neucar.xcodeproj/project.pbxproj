@@ -10,6 +10,7 @@
 		234B9A21274820D300B6596A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B9A20274820D300B6596A /* ProfileViewController.swift */; };
 		234B9A23274AB4AD00B6596A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B9A22274AB4AC00B6596A /* PostCell.swift */; };
 		234B9A25274AB55F00B6596A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B9A24274AB55F00B6596A /* HomeViewController.swift */; };
+		234B9A2927569A8E00B6596A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B9A2827569A8E00B6596A /* CommentCell.swift */; };
 		23A1EB6F2741635400215054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1EB6E2741635400215054 /* AppDelegate.swift */; };
 		23A1EB712741635400215054 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1EB702741635400215054 /* SceneDelegate.swift */; };
 		23A1EB762741635400215054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A1EB742741635400215054 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		234B9A20274820D300B6596A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		234B9A22274AB4AC00B6596A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		234B9A24274AB55F00B6596A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		234B9A2827569A8E00B6596A /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		23A1EB6B2741635400215054 /* Neucar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neucar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1EB6E2741635400215054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1EB702741635400215054 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				23A1EB772741635C00215054 /* Assets.xcassets */,
 				23A1EB792741635C00215054 /* LaunchScreen.storyboard */,
 				23A1EB7C2741635C00215054 /* Info.plist */,
+				234B9A2827569A8E00B6596A /* CommentCell.swift */,
 			);
 			path = Neucar;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				52A705252747A78100948FC3 /* CameraViewController.swift in Sources */,
 				234B9A25274AB55F00B6596A /* HomeViewController.swift in Sources */,
 				234B9A21274820D300B6596A /* ProfileViewController.swift in Sources */,
+				234B9A2927569A8E00B6596A /* CommentCell.swift in Sources */,
 				23A1EB6F2741635400215054 /* AppDelegate.swift in Sources */,
 				23A1EB712741635400215054 /* SceneDelegate.swift in Sources */,
 				B5F5B578274960550092800D /* SettingsViewController.swift in Sources */,
