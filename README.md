@@ -277,9 +277,9 @@ List of network requests by screen
 
 ## Sprint 3 Milestones
 
-- [x] User can like or unlike a car post
- 
-![](https://i.imgur.com/GN8zkJE.gif)
+- [x]  User can leave a comment on a car car post and like a post
+
+![](https://i.imgur.com/5ArqREh.gif)
 
 
 
