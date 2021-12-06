@@ -63,8 +63,6 @@ class SettingsViewController: UIViewController {
         }
     }
     
-    @IBAction func onClickNotifications(_ sender: Any) {
-    }
     
     
     @IBAction func onClickAbout(_ sender: Any) {
