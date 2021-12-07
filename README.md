@@ -282,6 +282,12 @@ List of network requests by screen
 ![](https://i.imgur.com/5ArqREh.gif)
 
 
+## Sprint 4 Milestones
+
+
+- [x] User can view the help Help page in the Setiings page
+
+![](https://i.imgur.com/kIDxOBg.gif)
 
 
 

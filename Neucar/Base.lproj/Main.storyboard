@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nxs-pN-mlf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nxs-pN-mlf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -32,7 +31,7 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like #" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHL-Ji-xIh">
-                                <rect key="frame" x="29" y="671" width="356" height="33"/>
+                                <rect key="frame" x="29" y="617" width="356" height="33"/>
                                 <color key="backgroundColor" red="0.99718910459999999" green="0.8370327353" blue="0.47442835570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="oT5-hb-a24"/>
@@ -208,7 +207,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="577" id="lkv-01-Oyo" customClass="PostCell" customModule="Neucar" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="577"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="577"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lkv-01-Oyo" id="i8L-lf-f6Y">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="577"/>
@@ -294,7 +293,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentCell" id="Lxx-pi-VSG" customClass="CommentCell" customModule="Neucar" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="621.5" width="414" height="37.5"/>
+                                        <rect key="frame" x="0.0" y="601.5" width="414" height="37.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lxx-pi-VSG" id="EG7-OM-kbd">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
@@ -330,10 +329,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="XTY-Ow-MRp">
-
                                         <rect key="frame" x="0.0" y="639" width="414" height="37.5"/>
-
-                                        <rect key="frame" x="0.0" y="659" width="414" height="37.5"/> 3611c88e7a5f49eac604b05dc8ad1cc2e0d64a07
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XTY-Ow-MRp" id="4nI-br-QmI">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
@@ -624,7 +620,6 @@
             </objects>
             <point key="canvasLocation" x="2826.0869565217395" y="1255.5803571428571"/>
         </scene>
-
         <!--Account Settings-->
         <scene sceneID="B1L-ep-oiS">
             <objects>
@@ -641,7 +636,6 @@
             </objects>
             <point key="canvasLocation" x="2423" y="1963"/>
         </scene>
- 3611c88e7a5f49eac604b05dc8ad1cc2e0d64a07
         <!--About -->
         <scene sceneID="NqJ-hD-QOO">
             <objects>
@@ -767,7 +761,7 @@
         <image name="home-icon" width="30" height="30"/>
         <image name="lightbulb" catalog="system" width="113" height="128"/>
         <image name="message" catalog="system" width="128" height="113"/>
-        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person" catalog="system" width="32" height="32"/>
         <image name="profile_tab" width="25" height="25"/>
         <image name="text.magnifyingglass" catalog="system" width="128" height="115"/>
         <namedColor name="Black">
