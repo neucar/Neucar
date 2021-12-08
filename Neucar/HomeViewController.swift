@@ -10,25 +10,11 @@ import Parse
 import AlamofireImage
 import MessageInputBar
 
-class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, /*UISearchResultsUpdating*/ MessageInputBarDelegate, UISearchResultsUpdating {
-    
-    func updateSearchResults(for searchController: UISearchController) {
-        if let searchText = searchController.searchBar.text {
-            filteredData = searchText.isEmpty ? data : data.filter({(dataString:String) -> Bool in
-                return dataString.range(of: searchText, options: .caseInsensitive) != nil
-            })
-            tableView.reloadData()
-        }
-    }
+class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, /*UISearchResultsUpdating*/ MessageInputBarDelegate {
     
     
     
     @IBOutlet weak var tableView: UITableView!
-    
-    let data = [ "Honda", "Audi", "BMW", "Mercedes", "Ford", "RangeRover"]
-    var filteredData: [String]!
-    var searchController:UISearchController!
-    
     
     let commentBar = MessageInputBar()
     var showsCommentBar = false
@@ -41,16 +27,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
-        filteredData = data
         
         
-        searchController = UISearchController(searchResultsController: nil)
-        searchController.searchResultsUpdater = self
-        
-        searchController.dimsBackgroundDuringPresentation = false
-        searchController.searchBar.sizeToFit()
-        tableView.tableHeaderView = searchController.searchBar
-        definesPresentationContext = true
         
         
         commentBar.inputTextView.placeholder = "Add a comment..."
@@ -202,29 +180,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             selectedPost = post
         }
         
-        
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TableCell")!
-        cell.textLabel?.text = filteredData[indexPath.row]
-        return cell
-        
-    }
 
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return filteredData.count
-        
-    }
-    /*func updateSearchResults(for searchController: UISearchController) {
-        if let searchText = searchController.searchBar.text {
-            filteredData = searchText.isEmpty ? data : data.filter({(dataString:String) -> Bool in
-                return dataString.rangeOfString(from: searchText, options: .caseInsensitive, range: NSRange) != nil
-            })
-            //tableView.reloadData()
-        }
- 
-        }*/
-                
-        //tableView.reloadData()
         
     }
 
