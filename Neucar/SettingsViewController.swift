@@ -18,13 +18,13 @@ class SettingsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var AccountButton: UIButton!
+   
     
     
     @IBOutlet weak var DarkModeSwitch: UISwitch!
     
     
-    @IBOutlet weak var NotificationSwitch: UISwitch!
+   
     
     
     @IBOutlet weak var AboutButton: UIButton!
@@ -46,8 +46,7 @@ class SettingsViewController: UIViewController {
     }
     
     
-    @IBAction func onClickAccount(_ sender: Any) {
-    }
+   
     
     @IBAction func onClickDarkMode(_ sender: UISwitch) {
         
