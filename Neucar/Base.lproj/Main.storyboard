@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nxs-pN-mlf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nxs-pN-mlf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -62,7 +63,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHL-Ji-xIh">
-                                <rect key="frame" x="156" y="589" width="102" height="57"/>
+                                <rect key="frame" x="156" y="643" width="102" height="57"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="1vH-NB-igi"/>
@@ -225,7 +226,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="577" id="lkv-01-Oyo" customClass="PostCell" customModule="Neucar" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="577"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="577"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lkv-01-Oyo" id="i8L-lf-f6Y">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="577"/>
@@ -328,7 +329,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentCell" id="Lxx-pi-VSG" customClass="CommentCell" customModule="Neucar" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="601.5" width="414" height="43"/>
+                                        <rect key="frame" x="0.0" y="621.5" width="414" height="43"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lxx-pi-VSG" id="EG7-OM-kbd">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
@@ -364,7 +365,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="XTY-Ow-MRp">
-                                        <rect key="frame" x="0.0" y="644.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="664.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XTY-Ow-MRp" id="4nI-br-QmI">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -562,7 +563,7 @@
                                 <color key="shadowColor" red="0.88511560499999997" green="0.60430026479999999" blue="0.1902283136" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="beb-8I-RDw">
-                                <rect key="frame" x="66" y="265" width="239" height="34.5"/>
+                                <rect key="frame" x="66" y="265" width="239" height="61.5"/>
                                 <color key="backgroundColor" red="0.99607843137254903" green="0.83529411764705885" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="239" id="prb-8o-fNm"/>
@@ -586,7 +587,7 @@
                                 </connections>
                             </switch>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NyD-fq-Es3">
-                                <rect key="frame" x="66" y="443.5" width="239" height="39.5"/>
+                                <rect key="frame" x="66" y="470.5" width="239" height="66.5"/>
                                 <color key="backgroundColor" red="0.99607843137254903" green="0.83529411764705885" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Help">
@@ -600,7 +601,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BKc-54-kAP">
-                                <rect key="frame" x="66" y="354.5" width="239" height="34"/>
+                                <rect key="frame" x="66" y="381.5" width="239" height="34"/>
                                 <color key="backgroundColor" red="0.99718910459999999" green="0.8370327353" blue="0.47442835570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <attributedString key="attributedText">
                                     <fragment content="About">
@@ -614,7 +615,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl6-lq-LlV">
-                                <rect key="frame" x="340" y="337" width="39" height="69"/>
+                                <rect key="frame" x="340" y="337" width="39" height="123"/>
                                 <state key="normal" title="Button" image="chevron.forward" catalog="system"/>
                                 <connections>
                                     <action selector="onClickAbout:" destination="jIY-wB-7Dr" eventType="touchUpInside" id="Fc1-yn-XHX"/>
@@ -622,7 +623,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkS-xJ-Mh0">
-                                <rect key="frame" x="335" y="455" width="39" height="22"/>
+                                <rect key="frame" x="335" y="509" width="39" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="hyR-MR-1dg"/>
                                 </constraints>
@@ -633,7 +634,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P40-CE-ch2">
-                                <rect key="frame" x="113" y="531" width="145" height="44"/>
+                                <rect key="frame" x="113" y="585" width="145" height="44"/>
                                 <color key="backgroundColor" red="0.99718910459999999" green="0.8370327353" blue="0.47442835570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="dlR-O8-hhT"/>
@@ -817,7 +818,7 @@
         <image name="home-icon" width="30" height="30"/>
         <image name="lightbulb" catalog="system" width="113" height="128"/>
         <image name="message" catalog="system" width="128" height="113"/>
-        <image name="person" catalog="system" width="32" height="32"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="profile_tab" width="25" height="25"/>
         <image name="text.magnifyingglass" catalog="system" width="128" height="115"/>
         <namedColor name="Black">
